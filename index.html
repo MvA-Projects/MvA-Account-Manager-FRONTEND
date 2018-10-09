@@ -9,8 +9,37 @@
     <script type="text/javascript" src="js/main.js"></script>
 </head>
 
-<body>
+<body onload="checkLogin()">
+    <div class="top-menubar-loggedin">
+        <center>
+            <button class="nav-button">Home</button>
+            <button class="nav-button">Your Accounts</button>
+            <button class="nav-button">Logout</button>
+        </center>
+    </div>
+    <div class="top-menubar-loggedout">
+        <center>
+            <button class="nav-button">Home</button>
+            <button class="nav-button">Register</button>
+            <button class="nav-button">Log In</button>
+        </center>
+    </div>
 
+    <div class="content">
+        <center>
+            <p class="p-title">
+                Home
+            </p>
+            <hr />
+            <p>
+                Welcome to <b>PLACEHOLDER</b>! <b>PLACEHOLDER</b> is a service that helps you keep track of all of your online (and offline!) accounts.<br />
+                We allow you to securely but easily store your account details so you don't have to remember those long passwords!<br />
+            </p>
+            <button style="display: inline-block">Log In</button>
+            <p style="display: inline-block"> OR </p><button style="display: inline-block">Register</button>
+        </center>
+
+    </div>
 </body>
 
 </html>

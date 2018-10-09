@@ -1,5 +1,45 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(29, 4, 83);
+    background-color: #815690;
+}
+
+.nav-button {
+    background-color: #38a353;
+    border-style: none;
+    border-radius: 0px;
+    height: 100%;
+    font-size: 34px;
+    border-radius: 12.5px;
+}
+
+.nav-button:active {
+    background-color: #25783a;
+}
+
+.top-menubar-loggedin {
+    /* position: absolute; */
+    display: none;
+    top: 0%;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #333333;
+}
+
+.top-menubar-loggedout {
+    /* position: absolute; */
+    display: none;
+    top: 0%;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #333333;
+}
+
+.content {
+    padding: 25px;
+    border-style: solid;
+    border-color: #a16db4;
+    background-color: #ab72c1;
 }
